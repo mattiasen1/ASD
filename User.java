@@ -23,14 +23,18 @@ public class User{
         this.adress = adress;
         this.usertype = usertype;
     }
-    public User getUser() {
+    public void getUser() {
     }
     public boolean changePassword() {    
+        return(true);
     }
     public boolean disableAccount() {
+        return(true);
     }
     public Feedback createFeedback() {
+        return(new Feedback(2, "Sämst"));
     }
     public boolean updateUserinfo() {
+        return(true);
     }
 }
